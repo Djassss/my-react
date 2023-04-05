@@ -13,7 +13,7 @@ const AboutMe = () => {
     <div className='contact'>
       <video src={require('../video-img/pexels-lachlan-ross-8775687.mp4')} muted autoPlay loop />
       <div className='overlay'></div>
-      <h1>jasur Umarov</h1>
+      {/* <h1>jasur Umarov</h1> */}
   </div>
   )
 }
