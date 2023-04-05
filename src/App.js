@@ -6,8 +6,8 @@ import About from './components/About';
 
 import './style/app.scss';
 import './style/header.scss';
-import './style/register.scss';
-import './style/login.scss';
+import './style/about.scss';
+import './style/contact.scss';
 import './style/home.scss';
 
 const App = () => {

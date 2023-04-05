@@ -43,7 +43,10 @@ const MyHeader = () => {
 return(
   <>
 <header>
-    <FontAwesomeIcon className='icn' icon={faBars} onClick={() => setToggle(!toggle)} />
+    {/* <FontAwesomeIcon className='icn' icon={faBars} onClick={() => setToggle(!toggle)} /> */}
+
+    {/* <img src={require('../video-img/16.jpg')}/> */}
+    <h2><Link to={'/'}>Logo</Link></h2>
     <div className='menu'>
         <Link to={'/'} > Home</Link>
         <Link to={'/about'} > About</Link>

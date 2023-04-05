@@ -8,8 +8,8 @@ const MyHome = () => {
     <div className='home'>
       <video src={require('../video-img/pexels-dario-fernandez-ruz-9130080.mp4')} muted autoPlay loop />
       <div className='overlay'></div>
-      {/* <h1>portfolio</h1> */}
-      {/* <h2>Jasur Umarov</h2> */}
+          <h2>jasur umarov</h2>
+          <h3>web developer</h3>
     </div>
   )
 
@@ -18,31 +18,31 @@ const MyHome = () => {
 
 
 
-const green = '#39D1B4';
-const yellow = '#FFD712';
+// const green = '#39D1B4';
+// const yellow = '#FFD712';
 
-class Toggle extends React.Component {
-  constructor(props){
-    super(props)
-    this.state = {color: green}
-    this.changeColor = this.changeColor.bind(this);
-  }
-  changeColor() {
-    const newColor = this.state.color == green ?
-    yellow : green;
-    this.setState({color: newColor});
-  }
-  render() {
-    return (
-      <div className='class' style={{background: this.state.color}}>
-        <h1>
-          Change my color
-        </h1>
-        <button onClick={this.changeColor}>Change color</button>
-      </div>
-    );
-  }
-}
+// class Toggle extends React.Component {
+//   constructor(props){
+//     super(props)
+//     this.state = {color: green}
+//     this.changeColor = this.changeColor.bind(this);
+//   }
+//   changeColor() {
+//     const newColor = this.state.color == green ?
+//     yellow : green;
+//     this.setState({color: newColor});
+//   }
+//   render() {
+//     return (
+//       <div className='class' style={{background: this.state.color}}>
+//         <h1>
+//           Change my color
+//         </h1>
+//         <button onClick={this.changeColor}>Change color</button>
+//       </div>
+//     );
+//   }
+// }
 
 
 

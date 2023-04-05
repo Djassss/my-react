@@ -22,21 +22,42 @@
         letter-spacing: 10px;
         color: #fff;
     }
-    h2{
-        position: absolute;
-        top: 60%;
-        left: 50%;
-        transform: translateX(-50%);
-        text-transform: uppercase;
-        letter-spacing: 10px;
-        color: #333;
-        font-size: 13px;
+    
+        h2{
+            position: absolute;
+            left: 50%;
+            top: 45%;
+            transform: translateX(-80%);
+            color: #fff;
+            text-transform: uppercase;
+            animation: slideToLeft 3s ease-out;
+            
+            padding: 5px;
+        }
+        h3{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            color: #fff;
+            text-transform: uppercase;
+            animation: slideToRight 3s ease-out;
+            
+        }
+}
+
+
+@keyframes slideToLeft {
+    from{
+        transform: translateZ(-10px);
+        opacity: 0;
+    }
+  
+}
+@keyframes slideToRight {
+    from{
+        transform: translateX(-200px);
+        opacity: 0;
     }
 }
 
-// .class{
-//     position: absolute;
-//     top: 50%;
-//     left: 50%;
-//     transform: translateX(-50%);
-// }
+

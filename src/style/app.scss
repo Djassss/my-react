@@ -5,3 +5,10 @@
     box-sizing: border-box;
     font-family: 'Montserrat';
 }
+
+@media(max-width: 698px){
+    *{
+        font-size: 12px;
+    }
+   
+}
