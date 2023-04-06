@@ -62,7 +62,6 @@ class Home extends React.Component  {
     <>
     <MyHome />
     {/* <Toggle /> */}
- 
     </>
   )
 }
