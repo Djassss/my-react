@@ -8,7 +8,7 @@ const MyHome = () => {
     <div className='home'>
       <video src={require('../video-img/pexels-dario-fernandez-ruz-9130080.mp4')} muted autoPlay loop />
       <div className='overlay'></div>
-          <h2>jasur umarovv</h2>
+          <h2>jasur umarov</h2>
           <h3>web developer</h3>
     </div>
   )
